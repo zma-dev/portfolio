@@ -4,33 +4,33 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center pt-16 px-4 bg-gradient-to-br from-[#FFE500] via-[#FFF8CC] to-white"
+      className="min-h-screen flex items-center justify-center pt-16 px-4 bg-gradient-to-br from-[#F39800] via-[#FFE5B4] to-white"
     >
       <div className="max-w-4xl mx-auto text-center">
         {/* Profile Image */}
         <div className="relative inline-block mb-8">
-          <div className="w-40 h-40 mx-auto rounded-full bg-[#E60012] border-4 border-[#1A1A1A] flex items-center justify-center text-white text-5xl font-black shadow-[6px_6px_0_#1A1A1A] hover-shake">
+          <div className="w-40 h-40 mx-auto rounded-full bg-[#F39800] border-4 border-[#1A1A1A] flex items-center justify-center text-white text-5xl font-black shadow-[6px_6px_0_#1A1A1A] hover-shake">
             {profile.name.charAt(0)}
           </div>
           {/* 吹き出し */}
-          <div className="absolute -top-4 -right-4 bg-[#00A0E9] text-white text-xs font-bold px-3 py-1 rounded-full border-2 border-[#1A1A1A] rotate-12 shadow-[2px_2px_0_#1A1A1A]">
+          <div className="absolute -top-4 -right-4 bg-[#FFE500] text-[#1A1A1A] text-xs font-bold px-3 py-1 rounded-full border-2 border-[#1A1A1A] rotate-12 shadow-[2px_2px_0_#1A1A1A]">
             よろしく！
           </div>
         </div>
 
         {/* Name */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#1A1A1A] mb-4 tracking-tight">
-          <span className="inline-block bg-[#FFE500] px-4 py-2 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform -rotate-1">
+          <span className="inline-block bg-[#F39800] text-white px-4 py-2 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform -rotate-1">
             {profile.name}
           </span>
         </h1>
 
         {/* Title */}
         <div className="flex flex-wrap justify-center gap-2 mb-6">
-          <span className="bg-[#E60012] text-white px-4 py-2 text-lg font-bold border-2 border-[#1A1A1A] rounded-full shadow-[3px_3px_0_#1A1A1A]">
+          <span className="bg-[#00A0E9] text-white px-4 py-2 text-lg font-bold border-2 border-[#1A1A1A] rounded-full shadow-[3px_3px_0_#1A1A1A]">
             デジタルコンテンツクリエイター
           </span>
-          <span className="bg-[#00A0E9] text-white px-4 py-2 text-lg font-bold border-2 border-[#1A1A1A] rounded-full shadow-[3px_3px_0_#1A1A1A]">
+          <span className="bg-[#00A73C] text-white px-4 py-2 text-lg font-bold border-2 border-[#1A1A1A] rounded-full shadow-[3px_3px_0_#1A1A1A]">
             SNS運用
           </span>
         </div>
@@ -51,13 +51,13 @@ export default function Hero() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="#strengths"
-            className="px-8 py-4 bg-[#E60012] text-white font-black text-lg border-4 border-[#1A1A1A] rounded-full shadow-[4px_4px_0_#1A1A1A] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_#1A1A1A] transition-all"
+            className="px-8 py-4 bg-[#FFE500] text-[#1A1A1A] font-black text-lg border-4 border-[#1A1A1A] rounded-full shadow-[4px_4px_0_#1A1A1A] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_#1A1A1A] transition-all"
           >
             強みを見る →
           </a>
           <a
             href="#contact"
-            className="px-8 py-4 bg-[#00A73C] text-white font-black text-lg border-4 border-[#1A1A1A] rounded-full shadow-[4px_4px_0_#1A1A1A] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_#1A1A1A] transition-all"
+            className="px-8 py-4 bg-[#E85298] text-white font-black text-lg border-4 border-[#1A1A1A] rounded-full shadow-[4px_4px_0_#1A1A1A] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_#1A1A1A] transition-all"
           >
             連絡する →
           </a>

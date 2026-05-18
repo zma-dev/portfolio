@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --tokai-yellow: #FFE500;
-  --tokai-red: #E60012;
-  --tokai-blue: #00A0E9;
-  --tokai-green: #00A73C;
-  --tokai-orange: #F39800;
-  --tokai-pink: #E85298;
+  /* 東海オンエア メンバーカラー */
+  --tokai-orange: #F39800;  /* てつや（リーダー） */
+  --tokai-yellow: #FFE500;  /* しばゆー */
+  --tokai-blue: #00A0E9;    /* りょう */
+  --tokai-green: #00A73C;   /* としみつ */
+  --tokai-pink: #E85298;    /* ゆめまる */
+  --tokai-brown: #8B4513;   /* 虫眼鏡 */
   --tokai-black: #1A1A1A;
   --background: #ffffff;
   --foreground: #1A1A1A;
@@ -15,12 +16,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-tokai-orange: var(--tokai-orange);
   --color-tokai-yellow: var(--tokai-yellow);
-  --color-tokai-red: var(--tokai-red);
   --color-tokai-blue: var(--tokai-blue);
   --color-tokai-green: var(--tokai-green);
-  --color-tokai-orange: var(--tokai-orange);
   --color-tokai-pink: var(--tokai-pink);
+  --color-tokai-brown: var(--tokai-brown);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -137,11 +138,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--tokai-yellow);
+  background: var(--tokai-orange);
   border: 2px solid var(--tokai-black);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--tokai-orange);
+  background: var(--tokai-yellow);
 }

@@ -1,10 +1,13 @@
 import { strengths } from "@/data/profile";
 
+// 東海オンエア メンバーカラー
 const colors = [
-  { bg: "bg-[#FFE500]", shadow: "#E60012" },
-  { bg: "bg-[#00A0E9]", shadow: "#1A1A1A" },
-  { bg: "bg-[#00A73C]", shadow: "#1A1A1A" },
-  { bg: "bg-[#E85298]", shadow: "#1A1A1A" },
+  { bg: "bg-[#F39800]" },  // オレンジ（てつや）
+  { bg: "bg-[#FFE500]" },  // 黄色（しばゆー）
+  { bg: "bg-[#00A0E9]" },  // 青（りょう）
+  { bg: "bg-[#00A73C]" },  // 緑（としみつ）
+  { bg: "bg-[#E85298]" },  // ピンク（ゆめまる）
+  { bg: "bg-[#8B4513]" },  // 茶色（虫眼鏡）
 ];
 
 const icons: Record<string, React.ReactNode> = {
@@ -36,7 +39,7 @@ export default function Strengths() {
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="inline-block text-4xl sm:text-5xl font-black text-[#1A1A1A] bg-[#E60012] text-white px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform rotate-1">
+          <h2 className="inline-block text-4xl sm:text-5xl font-black bg-[#FFE500] text-[#1A1A1A] px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform rotate-1">
             強み
           </h2>
           <p className="mt-6 text-lg text-[#1A1A1A] font-bold">

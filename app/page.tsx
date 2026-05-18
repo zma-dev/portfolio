@@ -16,10 +16,10 @@ export default function Home() {
         <Career />
         <Contact />
       </main>
-      <footer className="py-8 text-center bg-[#1A1A1A] border-t-4 border-[#FFE500]">
+      <footer className="py-8 text-center bg-[#1A1A1A] border-t-4 border-[#F39800]">
         <p className="text-white font-bold">
           &copy; {new Date().getFullYear()}{" "}
-          <span className="text-[#FFE500]">K.IWASAKI</span> All rights reserved.
+          <span className="text-[#F39800]">K.IWASAKI</span> All rights reserved.
         </p>
       </footer>
     </>

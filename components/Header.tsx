@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 const navItems = [
-  { name: "ホーム", href: "#hero", color: "bg-[#FFE500]" },
-  { name: "強み", href: "#strengths", color: "bg-[#E60012]" },
-  { name: "スキル", href: "#skills", color: "bg-[#00A0E9]" },
-  { name: "経歴", href: "#career", color: "bg-[#00A73C]" },
-  { name: "コンタクト", href: "#contact", color: "bg-[#E85298]" },
+  { name: "ホーム", href: "#hero", color: "bg-[#F39800]" },      // オレンジ（てつや）
+  { name: "強み", href: "#strengths", color: "bg-[#FFE500]" },   // 黄色（しばゆー）
+  { name: "スキル", href: "#skills", color: "bg-[#00A0E9]" },    // 青（りょう）
+  { name: "経歴", href: "#career", color: "bg-[#00A73C]" },      // 緑（としみつ）
+  { name: "コンタクト", href: "#contact", color: "bg-[#E85298]" }, // ピンク（ゆめまる）
 ];
 
 export default function Header() {
@@ -19,9 +19,9 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <a
             href="#"
-            className="text-2xl font-black text-[#1A1A1A] tracking-tight hover:text-[#E60012] transition-colors"
+            className="text-2xl font-black text-[#1A1A1A] tracking-tight hover:text-[#F39800] transition-colors"
           >
-            <span className="bg-[#FFE500] px-2 py-1 border-2 border-[#1A1A1A] rounded">
+            <span className="bg-[#F39800] text-white px-2 py-1 border-2 border-[#1A1A1A] rounded">
               K.IWASAKI
             </span>
           </a>
@@ -41,7 +41,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 bg-[#FFE500] border-2 border-[#1A1A1A] rounded-lg"
+            className="md:hidden p-2 bg-[#F39800] border-2 border-[#1A1A1A] rounded-lg"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="メニューを開く"
           >

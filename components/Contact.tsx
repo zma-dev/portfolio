@@ -1,10 +1,11 @@
 import { profile } from "@/data/profile";
 
+// 東海オンエア メンバーカラー
 const socialLinks = [
   {
     name: "GitHub",
     href: profile.social.github,
-    color: "bg-[#1A1A1A]",
+    color: "bg-[#8B4513]",  // 茶色（虫眼鏡）
     textColor: "text-white",
     icon: (
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -19,7 +20,7 @@ const socialLinks = [
   {
     name: "X",
     href: profile.social.twitter,
-    color: "bg-[#00A0E9]",
+    color: "bg-[#00A0E9]",  // 青（りょう）
     textColor: "text-white",
     icon: (
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -30,7 +31,7 @@ const socialLinks = [
   {
     name: "LinkedIn",
     href: profile.social.linkedin,
-    color: "bg-[#00A73C]",
+    color: "bg-[#00A73C]",  // 緑（としみつ）
     textColor: "text-white",
     icon: (
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -41,7 +42,7 @@ const socialLinks = [
   {
     name: "Email",
     href: profile.social.email ? `mailto:${profile.social.email}` : "#",
-    color: "bg-[#E85298]",
+    color: "bg-[#E85298]",  // ピンク（ゆめまる）
     textColor: "text-white",
     icon: (
       <svg
@@ -65,7 +66,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-4 bg-gradient-to-br from-[#FFE500] via-[#FFF8CC] to-white"
+      className="py-20 px-4 bg-gradient-to-br from-[#F39800] via-[#FFE5B4] to-white"
     >
       <div className="max-w-4xl mx-auto text-center">
         {/* Section Title */}

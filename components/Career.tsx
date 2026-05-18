@@ -1,8 +1,9 @@
 import { career } from "@/data/profile";
 
+// 東海オンエア メンバーカラー
 const typeColors = {
-  work: { bg: "bg-[#E60012]", text: "text-white" },
-  education: { bg: "bg-[#00A0E9]", text: "text-white" },
+  work: { bg: "bg-[#F39800]", text: "text-white" },      // オレンジ（てつや）
+  education: { bg: "bg-[#00A0E9]", text: "text-white" }, // 青（りょう）
 };
 
 export default function Career() {
@@ -11,7 +12,7 @@ export default function Career() {
       <div className="max-w-4xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="inline-block text-4xl sm:text-5xl font-black bg-[#00A73C] text-white px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform rotate-1">
+          <h2 className="inline-block text-4xl sm:text-5xl font-black bg-[#00A73C] text-white px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#F39800] transform rotate-1">
             経歴
           </h2>
           <p className="mt-6 text-lg text-[#1A1A1A] font-bold">
@@ -22,7 +23,7 @@ export default function Career() {
         {/* Timeline */}
         <div className="relative">
           {/* Timeline Line */}
-          <div className="absolute left-6 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-2 bg-[#FFE500] border-2 border-[#1A1A1A] rounded-full" />
+          <div className="absolute left-6 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-2 bg-[#F39800] border-2 border-[#1A1A1A] rounded-full" />
 
           <div className="space-y-8">
             {career.map((item, index) => (
@@ -33,7 +34,7 @@ export default function Career() {
                 }`}
               >
                 {/* Timeline Dot */}
-                <div className="absolute left-6 md:left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-[#E60012] border-4 border-[#1A1A1A] z-10 shadow-[2px_2px_0_#1A1A1A]" />
+                <div className="absolute left-6 md:left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-[#FFE500] border-4 border-[#1A1A1A] z-10 shadow-[2px_2px_0_#1A1A1A]" />
 
                 {/* Content Card */}
                 <div
@@ -59,7 +60,7 @@ export default function Career() {
                       <h3 className="text-lg font-black text-[#1A1A1A] mb-1">
                         {item.title}
                       </h3>
-                      <p className="text-[#E60012] font-bold mb-2">
+                      <p className="text-[#F39800] font-bold mb-2">
                         {item.organization}
                       </p>
                       <p className="text-[#1A1A1A] text-sm leading-relaxed">

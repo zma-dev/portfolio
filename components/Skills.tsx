@@ -1,10 +1,11 @@
 import { skills } from "@/data/profile";
 
+// 東海オンエア メンバーカラー
 const categoryColors = [
-  { bg: "bg-[#E60012]", bar: "bg-[#FFE500]" },
-  { bg: "bg-[#00A0E9]", bar: "bg-[#FFE500]" },
-  { bg: "bg-[#00A73C]", bar: "bg-[#FFE500]" },
-  { bg: "bg-[#F39800]", bar: "bg-[#E60012]" },
+  { bg: "bg-[#F39800]", bar: "bg-[#F39800]" },  // オレンジ（てつや）
+  { bg: "bg-[#00A0E9]", bar: "bg-[#00A0E9]" },  // 青（りょう）
+  { bg: "bg-[#00A73C]", bar: "bg-[#00A73C]" },  // 緑（としみつ）
+  { bg: "bg-[#8B4513]", bar: "bg-[#8B4513]" },  // 茶色（虫眼鏡）
 ];
 
 export default function Skills() {
@@ -13,7 +14,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="inline-block text-4xl sm:text-5xl font-black bg-[#00A0E9] text-white px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#1A1A1A] transform -rotate-1">
+          <h2 className="inline-block text-4xl sm:text-5xl font-black bg-[#00A0E9] text-white px-6 py-3 border-4 border-[#1A1A1A] rounded-lg shadow-[6px_6px_0_#F39800] transform -rotate-1">
             スキル
           </h2>
           <p className="mt-6 text-lg text-[#1A1A1A] font-bold">
